@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
 
       # Reads config.json at the root of this repo. Everything (theme, layout, options) lives there.
-      - uses: GiuseppeBellamacina/profile-forge@main
+      - uses: GiuseppeBellamacina/profile-forge@v1
         with:
           # Optional: a classic PAT (read:user + repo) saved as the secret PROFILE_FORGE_TOKEN
           # to count private contributions. Without it the default token only sees public data.

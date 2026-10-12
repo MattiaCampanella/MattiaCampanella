@@ -1,65 +1,140 @@
 {
   "$schema": "https://raw.githubusercontent.com/GiuseppeBellamacina/profile-forge/main/config.schema.json",
-
   "user": "MattiaCampanella",
   "title": "AI & ML Engineer",
   "about": [
-    "DA SCRIVERE: una breve presentazione (chi sei, di cosa ti occupi, cosa ti appassiona).",
-    "DA SCRIVERE: cosa stai studiando o costruendo adesso e cosa cerchi."
+    "Master's student in Computer Science, specializing in Machine Learning and Artificial Intelligence.",
+    "Currently focusing on Natural Language Processing (NLP) while building university and personal deep learning projects."
   ],
   "workingOn": [
-    { "title": "DA SCRIVERE", "description": "DA SCRIVERE: progetto in corso, una riga", "url": "https://github.com/MattiaCampanella" },
-    { "title": "DA SCRIVERE", "description": "DA SCRIVERE: progetto in corso, una riga", "url": "https://github.com/MattiaCampanella" },
-    { "title": "DA SCRIVERE", "description": "DA SCRIVERE: progetto in corso, una riga", "url": "https://github.com/MattiaCampanella" }
+    {
+      "title": "Work in progress...",
+      "description": "New project currently in definition",
+      "url": "https://github.com/MattiaCampanella"
+    },
+    {
+      "title": "ml-face-recognition",
+      "description": "Metric Learning for Face Recognition using Deep Learning",
+      "url": "https://github.com/MattiaCampanella/ml-face-recognition"
+    },
+    {
+      "title": "CVRP-IA",
+      "description": "Solving the Capacitated Vehicle Routing Problem with an Immune Algorithm (IA)",
+      "url": "https://github.com/MattiaCampanella/CVRP-IA"
+    }
   ],
   "links": [
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/DA-SCRIVERE", "icon": "linkedin", "color": "#0A66C2" }
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/mattia-campanella-a9477833a/",
+      "icon": "linkedin",
+      "color": "#0A66C2"
+    }
   ],
   "techStack": [
     {
       "category": "Languages",
       "items": [
-        { "name": "Python", "image": "assets/img/python.svg" },
-        { "name": "JavaScript", "image": "assets/img/javascript.svg" },
-        { "name": "C", "image": "assets/img/c.svg" },
-        { "name": "C++", "image": "assets/img/cpp.svg" }
+        {
+          "name": "Python",
+          "image": "assets/img/python.svg"
+        },
+        {
+          "name": "JavaScript",
+          "image": "assets/img/javascript.svg"
+        },
+        {
+          "name": "C",
+          "image": "assets/img/c.svg"
+        },
+        {
+          "name": "C++",
+          "image": "assets/img/cpp.svg"
+        }
       ]
     },
     {
       "category": "Machine & Deep Learning",
       "items": [
-        { "name": "PyTorch", "image": "assets/img/pytorch.svg" },
-        { "name": "TensorFlow", "image": "assets/img/tensorflow.svg" },
-        { "name": "scikit-learn", "image": "assets/img/scikit-learn.svg" },
-        { "name": "Keras", "image": "assets/img/keras.svg" }
+        {
+          "name": "PyTorch",
+          "image": "assets/img/pytorch.svg"
+        },
+        {
+          "name": "TensorFlow",
+          "image": "assets/img/tensorflow.svg"
+        },
+        {
+          "name": "scikit-learn",
+          "image": "assets/img/scikit-learn.svg"
+        },
+        {
+          "name": "Keras",
+          "image": "assets/img/keras.svg"
+        }
       ]
     },
     {
       "category": "Data & AI",
       "items": [
-        { "name": "NumPy", "image": "assets/img/numpy.svg" },
-        { "name": "Pandas", "image": "assets/img/pandas.svg" },
-        { "name": "Jupyter", "image": "assets/img/jupyter.svg" },
-        { "name": "OpenCV", "image": "assets/img/opencv.svg" },
-        { "name": "Hugging Face", "image": "assets/img/huggingface.svg" },
-        { "name": "LangChain", "image": "assets/img/langchain.svg" }
+        {
+          "name": "NumPy",
+          "image": "assets/img/numpy.svg"
+        },
+        {
+          "name": "Pandas",
+          "image": "assets/img/pandas.svg"
+        },
+        {
+          "name": "Jupyter",
+          "image": "assets/img/jupyter.svg"
+        },
+        {
+          "name": "OpenCV",
+          "image": "assets/img/opencv.svg"
+        },
+        {
+          "name": "Hugging Face",
+          "image": "assets/img/huggingface.svg"
+        },
+        {
+          "name": "LangChain",
+          "image": "assets/img/langchain.svg"
+        }
       ]
     },
     {
       "category": "Tooling",
       "items": [
-        { "name": "Git", "image": "assets/img/git.svg" },
-        { "name": "Docker", "image": "assets/img/docker.svg" },
-        { "name": "Linux", "image": "assets/img/linux.svg" },
-        { "name": "VS Code", "image": "assets/img/vscode.svg" },
-        { "name": "FastAPI", "image": "assets/img/fastapi.svg" }
+        {
+          "name": "Git",
+          "image": "assets/img/git.svg"
+        },
+        {
+          "name": "Docker",
+          "image": "assets/img/docker.svg"
+        },
+        {
+          "name": "Linux",
+          "image": "assets/img/linux.svg"
+        },
+        {
+          "name": "VS Code",
+          "image": "assets/img/vscode.svg"
+        },
+        {
+          "name": "FastAPI",
+          "image": "assets/img/fastapi.svg"
+        }
       ]
     }
   ],
-
   "locale": "en",
   "timezone": "Europe/Rome",
-  "themes": { "dark": "crimson", "light": "crimson-light" },
+  "themes": {
+    "dark": "crimson",
+    "light": "crimson-light"
+  },
   "customThemes": {
     "crimson-light": {
       "base": "light",
@@ -76,10 +151,35 @@
       "fire_color": "d9480f"
     }
   },
-
-  "layout": ["header", "about", "workingOn", ["stats", "streak"], "languages", "trophies", "heatmap", "techStack"],
-  "header": { "avatar": "rounded" },
-  "stats": { "numberFormat": "short" },
-  "languages": { "layout": "bar", "count": 10, "hide": ["Jupyter Notebook"] },
-  "trophies": { "ranks": ["-C"] }
+  "layout": [
+    "header",
+    "about",
+    "workingOn",
+    [
+      "stats",
+      "streak"
+    ],
+    "languages",
+    "trophies",
+    "heatmap",
+    "techStack"
+  ],
+  "header": {
+    "avatar": "rounded"
+  },
+  "stats": {
+    "numberFormat": "short"
+  },
+  "languages": {
+    "layout": "bar",
+    "count": 10,
+    "hide": [
+      "Jupyter Notebook"
+    ]
+  },
+  "trophies": {
+    "ranks": [
+      "-C"
+    ]
+  }
 }

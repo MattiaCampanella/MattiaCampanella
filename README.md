@@ -5,7 +5,7 @@
   <img src="assets/profile-forge-light.svg" alt="Mattia Campanella's GitHub profile card" width="100%">
 </picture>
 
-<a href="https://www.linkedin.com/in/DA-SCRIVERE"><picture>
+<a href="https://www.linkedin.com/in/mattia-campanella-a9477833a/"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/buttons/linkedin-dark.svg">
   <img src="assets/buttons/linkedin-light.svg" alt="LinkedIn">
 </picture></a>
