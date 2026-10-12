@@ -1,0 +1,64 @@
+{
+  "title": "",
+
+  "about": [
+    "",
+    ""
+  ],
+
+  "workingOn": [
+    {
+      "title": "",
+      "description": "",
+      "url": ""
+    },
+    {
+      "title": "",
+      "description": "",
+      "url": ""
+    }
+  ],
+
+  "links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/",
+      "icon": "linkedin",
+      "color": "#e03e2d"
+    },
+    {
+      "label": "Portfolio",
+      "url": "https://",
+      "icon": "globe",
+      "color": "#f7716a"
+    }
+  ],
+
+  "techStack": [
+    {
+      "category": "Languages",
+      "items": [
+        { "name": "Python",      "image": "assets/img/python.svg"      },
+        { "name": "C++",         "image": "assets/img/cpp.svg"         },
+        { "name": "JavaScript",  "image": "assets/img/javascript.svg"  },
+        { "name": "TypeScript",  "image": "assets/img/typescript.svg"  }
+      ]
+    },
+    {
+      "category": "AI / ML",
+      "items": [
+        { "name": "PyTorch",     "image": "assets/img/pytorch.svg"     },
+        { "name": "TensorFlow",  "image": "assets/img/tensorflow.svg"  },
+        { "name": "scikit-learn","image": "assets/img/scikitlearn.svg" }
+      ]
+    },
+    {
+      "category": "Tools",
+      "items": [
+        { "name": "Git",    "image": "assets/img/git.svg"    },
+        { "name": "Docker", "image": "assets/img/docker.svg" },
+        { "name": "Linux",  "image": "assets/img/linux.svg"  }
+      ]
+    }
+  ]
+}
