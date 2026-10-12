@@ -69,8 +69,10 @@
       "track_color": "f3d3d6",
       "text_color": "2a0f13",
       "muted_color": "7a4a52",
+      "title_color": "c0182e",
       "icon_color": "d6293e",
       "ring_color": "e8663d",
+      "stroke_color": "e8663d",
       "fire_color": "d9480f"
     }
   },
