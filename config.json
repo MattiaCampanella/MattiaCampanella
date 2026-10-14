@@ -1,21 +1,15 @@
 {
   "$schema": "https://raw.githubusercontent.com/GiuseppeBellamacina/profile-forge/main/config.schema.json",
-  "user": "MattiaCampanella",
-  "title": "AI & ML Engineer",
+  "title": "AI and ML Engineer",
   "about": [
-    "Master's student in Computer Science, specializing in Machine Learning and Artificial Intelligence.",
+    "Master's student in Computer Science, specializing in Machine Learning and Artificial Intelligence.,",
     "Currently focusing on Natural Language Processing (NLP) while building university and personal deep learning projects."
   ],
   "workingOn": [
     {
-      "title": "Work in progress...",
-      "description": "New project currently in definition",
-      "url": "https://github.com/MattiaCampanella"
-    },
-    {
-      "title": "ml-face-recognition",
       "description": "Metric Learning for Face Recognition using Deep Learning",
-      "url": "https://github.com/MattiaCampanella/ml-face-recognition"
+      "url": "https://github.com/MattiaCampanella/ml-face-recognition",
+      "title": "ml-face-recognition"
     },
     {
       "title": "CVRP-IA",
@@ -44,38 +38,21 @@
           "image": "assets/img/javascript.svg"
         },
         {
-          "name": "C",
-          "image": "assets/img/c.svg"
+          "name": "Cplusplus",
+          "image": "assets/img/cplusplus.svg"
         },
         {
-          "name": "C++",
-          "image": "assets/img/cpp.svg"
+          "name": "Html5",
+          "image": "assets/img/html5.svg"
+        },
+        {
+          "name": "Css3",
+          "image": "assets/img/css3.svg"
         }
       ]
     },
     {
-      "category": "Machine & Deep Learning",
-      "items": [
-        {
-          "name": "PyTorch",
-          "image": "assets/img/pytorch.svg"
-        },
-        {
-          "name": "TensorFlow",
-          "image": "assets/img/tensorflow.svg"
-        },
-        {
-          "name": "scikit-learn",
-          "image": "assets/img/scikit-learn.svg"
-        },
-        {
-          "name": "Keras",
-          "image": "assets/img/keras.svg"
-        }
-      ]
-    },
-    {
-      "category": "Data & AI",
+      "category": "Data & ML",
       "items": [
         {
           "name": "NumPy",
@@ -86,20 +63,12 @@
           "image": "assets/img/pandas.svg"
         },
         {
-          "name": "Jupyter",
-          "image": "assets/img/jupyter.svg"
+          "name": "PyTorch",
+          "image": "assets/img/pytorch.svg"
         },
         {
-          "name": "OpenCV",
-          "image": "assets/img/opencv.svg"
-        },
-        {
-          "name": "Hugging Face",
-          "image": "assets/img/huggingface.svg"
-        },
-        {
-          "name": "LangChain",
-          "image": "assets/img/langchain.svg"
+          "name": "Scikitlearn",
+          "image": "assets/img/scikitlearn.svg"
         }
       ]
     },
@@ -119,37 +88,23 @@
           "image": "assets/img/linux.svg"
         },
         {
-          "name": "VS Code",
+          "name": "FastAPI",
+          "image": "assets/img/fastapi.svg"
+        },
+        {
+          "name": "Vscode",
           "image": "assets/img/vscode.svg"
         },
         {
-          "name": "FastAPI",
-          "image": "assets/img/fastapi.svg"
+          "name": "Blender",
+          "image": "assets/img/blender.svg"
         }
       ]
     }
   ],
-  "locale": "en",
-  "timezone": "Europe/Rome",
   "themes": {
     "dark": "crimson",
-    "light": "crimson-light"
-  },
-  "customThemes": {
-    "crimson-light": {
-      "base": "light",
-      "bg_color": "fff7f7",
-      "panel_color": "ffecee",
-      "border_color": "f0c9ce",
-      "track_color": "f3d3d6",
-      "text_color": "2a0f13",
-      "muted_color": "7a4a52",
-      "title_color": "c0182e",
-      "icon_color": "d6293e",
-      "ring_color": "e8663d",
-      "stroke_color": "e8663d",
-      "fire_color": "d9480f"
-    }
+    "light": "catppuccin-latte"
   },
   "layout": [
     "header",
@@ -164,22 +119,47 @@
     "heatmap",
     "techStack"
   ],
-  "header": {
-    "avatar": "rounded"
-  },
   "stats": {
+    "show": [
+      "prsMerged",
+      "prsMergedPercentage"
+    ],
+    "hide": [
+      "issues",
+      "reviews"
+    ],
     "numberFormat": "short"
   },
   "languages": {
     "layout": "bar",
-    "count": 10,
+    "count": 8,
     "hide": [
       "Jupyter Notebook"
     ]
   },
   "trophies": {
     "ranks": [
-      "-C"
-    ]
+      "-E"
+    ],
+    "noFrame": true,
+    "noBg": true
+  },
+  "timezone": "Europe/Rome",
+  "header": {
+    "rankIcon": "github",
+    "frame": "neon",
+    "frameAnimation": "spin"
+  },
+  "colors": {
+    "frameColor": "a5182d"
+  },
+  "streak": {
+    "hide": [
+      "longest"
+    ],
+    "dateFormat": "d/m/Y"
+  },
+  "heatmap": {
+    "weekStart": "mon"
   }
 }
