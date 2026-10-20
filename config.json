@@ -2,8 +2,8 @@
   "$schema": "https://raw.githubusercontent.com/GiuseppeBellamacina/profile-forge/main/config.schema.json",
   "title": "AI and ML Engineer",
   "about": [
-    "Master's student in Computer Science, specializing in Machine Learning and Artificial Intelligence.,",
-    "Currently focusing on Natural Language Processing (NLP) while building university and personal deep learning projects."
+    "Master's student in Computer Science, specializing in Machine Learning and Artificial Intelligence.",
+    "Currently focusing on Natural Language Processing (NLP) and Large Language Models, while building university and personal deep learning projects."
   ],
   "workingOn": [
     {
@@ -103,7 +103,7 @@
     }
   ],
   "themes": {
-    "dark": "crimson",
+    "dark": "blood-moon",
     "light": "catppuccin-latte"
   },
   "layout": [
